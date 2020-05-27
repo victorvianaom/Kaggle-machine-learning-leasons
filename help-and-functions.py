@@ -57,3 +57,5 @@ print(
     max(100, 51, 14, key=mod_5),
     sep='\n',
 )
+
+print(round(8.1234, ndigits=-1)) #round it to the nearest tenth
