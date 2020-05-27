@@ -30,3 +30,10 @@ print(a.pop()) #remove the last element and returns it
 print(a)
 
 print('nada' in a, 'vaca' in a, 'cabra' in a, 'vidro' in a)
+
+x = 1.125
+print(x.as_integer_ratio())
+a, b, c = (1, 2, 3) # a tuple could used to assign values to variables
+print(a, b, c)
+a, b = x.as_integer_ratio()
+print(x, a/b)
