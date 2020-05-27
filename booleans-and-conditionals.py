@@ -30,3 +30,6 @@ else:
 
 a = 'abc' if 0 else 'cdf' #massa
 print(a)
+
+print(int(False), int(True))
+print(False + True + True + False + True + 1 + 2) #True converts to integer 1 and False to 0
