@@ -8,3 +8,8 @@ a = [2, 55, 66, -9]
 print(min(a), max(a))
 print((int("12")+1), (float("12.1")+1))
 print(type(int("12")+1), type(float("12.1")+1))
+a = 1
+b = 2 
+print('a=', a, ' b=', b)
+a, b = b, a
+print('a=', a, ' b=', b)
