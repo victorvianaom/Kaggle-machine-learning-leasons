@@ -40,5 +40,5 @@ print(a + b)
 #   'reverse', 'sort']
 
 # For Example:
-print(1 in [1, 2, 3])
-print([1, 2, 3].__contains__(1))
+print(1 in [1, 2, 3]) # way 1
+print([1, 2, 3].__contains__(1)) # way 2
