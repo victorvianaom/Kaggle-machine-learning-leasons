@@ -67,4 +67,5 @@ imputed_X_train_plus.columns = X_train_plus.columns
 imputed_X_valid_plus.columns = X_valid_plus.columns
 print('MAE from aproach 3 (An extension to imputation): ')
 print(score_dataset(imputed_X_train_plus, imputed_X_valid_plus, y_train, y_valid))
+
 print(X_train.shape)
